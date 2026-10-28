@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#111">
+ <text x="800" y="72" text-anchor="middle" font-size="38" font-weight="700" letter-spacing="2">LEARNHUB</text>
+ <text x="800" y="112" text-anchor="middle" font-size="22" letter-spacing="3">SYSTEM ARCHITECTURE</text>
+ <line x1="130" y1="140" x2="1470" y2="140" stroke="#111" stroke-width="2"/>
+ <!-- users -->
+ <rect x="95" y="348" width="220" height="170" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+ <text x="205" y="389" text-anchor="middle" font-size="22" font-weight="700">USERS</text>
+ <line x1="125" y1="405" x2="285" y2="405" stroke="#111"/>
+ <text x="205" y="441" text-anchor="middle" font-size="18">Administrator</text>
+ <text x="205" y="474" text-anchor="middle" font-size="18">Students • Instructors</text>
+ <!-- UI layer -->
+ <rect x="375" y="200" width="650" height="500" rx="12" fill="#fff" stroke="#111" stroke-width="3"/>
+ <rect x="375" y="200" width="650" height="64" rx="12" fill="#111"/>
+ <rect x="375" y="250" width="650" height="14" fill="#111"/>
+ <text x="700" y="241" text-anchor="middle" fill="#fff" font-size="23" font-weight="700" letter-spacing="1">PRESENTATION LAYER</text>
+ <text x="700" y="304" text-anchor="middle" font-size="24" font-weight="700">Python Tkinter GUI</text>
+ <text x="700" y="336" text-anchor="middle" font-size="17">Dashboard • Navigation • Forms • Tables • Search</text>
+ <rect x="410" y="370" width="275" height="126" rx="7" fill="#fff" stroke="#777" stroke-width="2"/>
+ <text x="547" y="405" text-anchor="middle" font-size="19" font-weight="700">MANAGE LEARNING</text>
+ <text x="547" y="438" text-anchor="middle" font-size="16">Students • Instructors • Courses</text>
+ <text x="547" y="466" text-anchor="middle" font-size="16">Enrollments • Lessons</text>
+ <rect x="715" y="370" width="275" height="126" rx="7" fill="#fff" stroke="#777" stroke-width="2"/>
+ <text x="852" y="405" text-anchor="middle" font-size="19" font-weight="700">ASSESS &amp; AWARD</text>
+ <text x="852" y="438" text-anchor="middle" font-size="16">Assignments • Quizzes</text>
+ <text x="852" y="466" text-anchor="middle" font-size="16">Submissions • Certificates</text>
+ <rect x="410" y="525" width="580" height="105" rx="7" fill="#f6f6f6" stroke="#777" stroke-width="2"/>
+ <text x="700" y="565" text-anchor="middle" font-size="18" font-weight="700">DASHBOARD &amp; REPORTS</text>
+ <text x="700" y="598" text-anchor="middle" font-size="16">Enrollment • Completion • Certificates • Pending grading • Low enrollment</text>
+ <!-- data layer -->
+ <rect x="1135" y="200" width="370" height="500" rx="12" fill="#fff" stroke="#111" stroke-width="3"/>
+ <rect x="1135" y="200" width="370" height="64" rx="12" fill="#111"/>
+ <rect x="1135" y="250" width="370" height="14" fill="#111"/>
+ <text x="1320" y="241" text-anchor="middle" fill="#fff" font-size="23" font-weight="700" letter-spacing="1">DATABASE LAYER</text>
+ <text x="1320" y="308" text-anchor="middle" font-size="22" font-weight="700">database.py</text>
+ <text x="1320" y="338" text-anchor="middle" font-size="16">Data access module • Python sqlite3</text>
+ <line x1="1180" y1="365" x2="1460" y2="365" stroke="#777" stroke-width="1.5"/>
+ <text x="1320" y="400" text-anchor="middle" font-size="20" font-weight="700">SQLite RELATIONAL DATABASE</text>
+ <text x="1320" y="432" text-anchor="middle" font-size="15">Primary keys • Foreign keys • SQL queries</text>
+ <rect x="1175" y="460" width="290" height="188" rx="7" fill="#f6f6f6" stroke="#777" stroke-width="2"/>
+ <text x="1320" y="494" text-anchor="middle" font-size="17" font-weight="700">CORE TABLES</text>
+ <text x="1320" y="526" text-anchor="middle" font-size="16">Student • Instructor • Course</text>
+ <text x="1320" y="555" text-anchor="middle" font-size="16">Enrollment • Lesson</text>
+ <text x="1320" y="584" text-anchor="middle" font-size="16">Assignment • Quiz • Submission</text>
+ <text x="1320" y="613" text-anchor="middle" font-size="16">Certificate</text>
+ <!-- arrows -->
+ <line x1="315" y1="433" x2="360" y2="433" stroke="#111" stroke-width="3"/>
+ <polygon points="360,433 346,425 346,441" fill="#111"/>
+ <text x="337" y="412" text-anchor="middle" font-size="13">interact</text>
+ <line x1="1025" y1="420" x2="1120" y2="420" stroke="#111" stroke-width="3"/>
+ <polygon points="1120,420 1106,412 1106,428" fill="#111"/>
+ <text x="1072" y="397" text-anchor="middle" font-size="14">SQL / CRUD</text>
+ <line x1="1120" y1="468" x2="1025" y2="468" stroke="#111" stroke-width="2.5" stroke-dasharray="8 6"/>
+ <polygon points="1025,468 1039,460 1039,476" fill="#111"/>
+ <text x="1072" y="493" text-anchor="middle" font-size="14">query results</text>
+ <!-- footer -->
+ <line x1="130" y1="758" x2="1470" y2="758" stroke="#111" stroke-width="1.5"/>
+ <text x="800" y="802" text-anchor="middle" font-size="17">Two-layer desktop application • Tkinter interface connected to SQLite through database.py</text>
+ <text x="800" y="836" text-anchor="middle" font-size="14" fill="#555">Data remains organized in related tables; the GUI supports create, view, update and delete operations.</text>
+</g>
+</svg>

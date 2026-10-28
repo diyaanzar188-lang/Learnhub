@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+~$*
+*_render/
+learnsphere.db
+learnhub.db
+uploads/
+certificates/
