@@ -2,6 +2,11 @@ __pycache__/
 *.py[cod]
 ~$*
 *_render/
+*.md
+!README.md
+*.docx
+*.png
+*.svg
 learnsphere.db
 learnhub.db
 uploads/
